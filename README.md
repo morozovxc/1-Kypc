@@ -4,4 +4,9 @@
 # Site.rar 
 > Сайт с регистрацией и проверками на дурака (php + MySQL) - [[Скачать](https://github.com/morozovxc/code-pascal/blob/main/Site.rar "Сайт")] 
 ># В phpMyAdmin закидываем:
->[ localhost , root , "", accounts База:(users с login[varchar] / password[varchar] / email[varchar] / gender [int]))
+> Данные базы: localhost, root, "без пароля" | База: accounts | Таблица: users
+># Структура:
+> email *[varchar]*
+> login *[varchar-24]*
+> password *[varchar-44]*
+> gender *[integer-2]*
