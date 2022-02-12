@@ -4,5 +4,4 @@
 # Site.rar 
 > Сайт с регистрацией и проверками на дурака (php + MySQL) - [[Скачать](https://github.com/morozovxc/code-pascal/blob/main/Site.rar "Сайт")] 
 ***
-> Denwer (локальный сервер) с данными:
-> [ localhost , root , "", accounts База:(users с login[varchar] / password[varchar] / email[varchar] / gender [int]))
+> В phpMyAdmin заводим базу: [ localhost , root , "", accounts База:(users с login[varchar] / password[varchar] / email[varchar] / gender [int]))
