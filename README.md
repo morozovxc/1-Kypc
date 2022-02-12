@@ -7,9 +7,9 @@
 > Данные базы: localhost, root, "без пароля" | База: accounts | Таблица: users
 ># Структура:
 > email *[varchar]*
-> ***
+> ---
 > login *[varchar-24]*
-> ***
+> ---
 > password *[varchar-44]*
-> ***
+> ---
 > gender *[integer-2]*
