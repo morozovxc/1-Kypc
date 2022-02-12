@@ -1,5 +1,5 @@
 # Читай!
 > Здесь представлен весь материал за 1 курс по Паскалю и будет допольняться всякой хернёй, если мне будет не лень.
 
-# [Site.rar] (https://github.com/morozovxc/code-pascal/blob/main/Site.rar "Сайт")
-> Сайт с регистрацией и проверками на дурака (php + MySQL)
+# Site.rar 
+> Сайт с регистрацией и проверками на дурака (php + MySQL) [Скачать]:(https://github.com/morozovxc/code-pascal/blob/main/Site.rar "Сайт")
