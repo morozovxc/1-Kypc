@@ -6,13 +6,13 @@
 ># В phpMyAdmin закидываем:
 > Данные базы: localhost, root, "без пароля" | База: accounts | Таблица: users
 ># Структура:
-> email *[varchar]*
+> email *[varchar]* - Default: _Не указан_
 > ---
 > login *[varchar-24]*
 > ---
 > password *[varchar-44]*
 > ---
-> gender *[integer-2]*
+> gender *[integer-2]* - Default: _Не указан_
 > ---
 ---
 # 3procedure.pas
