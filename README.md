@@ -12,7 +12,7 @@
 > ---
 > password *[varchar-44]*
 > ---
-> gender *[integer-2]* - По умолчанию: Не указан
+> gender *[integer-2]* - По умолчанию: 0
 > ---
 ---
 # 3procedure.pas
