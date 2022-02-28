@@ -11,26 +11,28 @@ char k = 'y';
 
 int calc(char n, int ch2){
     int old = ch;
-
-    cout<<"[debug]";
-    cout<<n;
-    printf("%d ",ch2);
   
     switch(n){
-        case '+':{ ch += ch2; }
-        case '-':{ ch -= ch2; }
-        case '*':{ ch *= ch2; }
-        case ':':{ ch /= ch2; }
-        case '%':{ ch %= ch2; }
-        case '^':{ pow(ch, ch2); }
+        case '+':{ ch += ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
+        case '-':{ ch -= ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
+        case '*':{ ch *= ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
+        case '/':{ 
+            if(ch2 == 0){
+                cout<<"Делить на ноль нельзя."<<endl;
+                break;
+            }
+            ch /= ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; 
+        }
+        case '%':{ ch %= ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
+        case '^':{ pow(ch, ch2); cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
         default:{
             cout<<"Неверное действие.\nПовторите запрос:";
             cin>>d;
             calc(d, c);
+            break;
         }
     }
-    cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl;
-    return 0;
+    return 1;
 }
 
 int main(){
