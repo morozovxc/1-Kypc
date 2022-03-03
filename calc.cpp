@@ -4,13 +4,13 @@
 
 using namespace std;
 
-int c;
-int ch;
+float c;
+float ch;
 char d;
 char k = 'y';
 
-void calc(char n, int ch2){
-    int old = ch;
+void calc(char n, float ch2){
+    float old = ch;
   
     switch(n){
         case '+':{ ch += ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
@@ -23,7 +23,13 @@ void calc(char n, int ch2){
             }
             ch /= ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; 
         }
-        case '%':{ ch %= ch2; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
+        case '%':{ 
+            if(ch2 == 0){
+                cout<<"Вывод:"<<old<<n<<ch2<<"="<<0<<"%"<<endl;
+                break;
+            }
+            ch = (ch/ch2)*100; cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<"%"<<endl; break; 
+        }
         case '^':{ pow(ch, ch2); cout<<"Вывод:"<<old<<n<<ch2<<"="<<ch<<endl; break; }
         default:{
             cout<<"Неверное действие.\nВведите действие:";
@@ -45,7 +51,7 @@ int main(){
             cout<<"Вывод: "<<ch<<endl;
             break;
         }
-        cout<<"Введите число:";
+        //cout<<"Введите число:";
         cin>>c;
         calc(d, c);
     }
