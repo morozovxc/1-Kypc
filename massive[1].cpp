@@ -15,7 +15,7 @@ int main()
     int massive[n];
     
     for(int i=0; i < n; i++){
-        massive[i] = rand() % c;
+        massive[i] = rand() % c-(c/2);
         ch += massive[i];
     }
     
