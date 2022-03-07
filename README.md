@@ -24,3 +24,6 @@
 # massive[1].cpp
 > Забивка рандомом одномерного массива и суммирование с выводом суммы -[[Код](https://github.com/morozovxc/code-pascal/blob/main/massive[1].cpp "Код")]
 
+# massive[2].cpp
+> Забивка рандомом одномерного массива и сортировка по возрастанию -[[Код](https://github.com/morozovxc/code-pascal/blob/main/massive[2].cpp "Код")]
+
