@@ -19,7 +19,7 @@
 > Осуществляет переводы из 10 в 2, из 10 в 8 и из 10 в (1-16), а так-же числа фибоначчи
 
 # [calc.cpp](https://github.com/morozovxc/code-pascal/blob/main/calc.cpp "Код")
-> Чувак, серьёзно? Объяснять тебе калькулятор? -[[Код](https://github.com/morozovxc/code-pascal/blob/main/calc.cpp "Код")]
+> Чувак, серьёзно? Объяснять тебе калькулятор?
 
 # [massive[1].cpp](https://github.com/morozovxc/code-pascal/blob/main/massive[1].cpp "Код")
 > Забивка рандомом одномерного массива и суммирование с выводом суммы
