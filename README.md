@@ -15,8 +15,8 @@
 > gender *[integer-2]* - По умолчанию: 0
 > ---
 ---
-# 3procedure.pas
-> Осуществляет переводы из 10 в 2, из 10 в 8 и из 10 в (1-16), а так-же числа фибоначчи -[[Код](https://github.com/morozovxc/code-pascal/blob/main/3procedure.pas "Код")]
+# [3procedure.pas](https://github.com/morozovxc/code-pascal/blob/main/3procedure.pas "Код")
+> Осуществляет переводы из 10 в 2, из 10 в 8 и из 10 в (1-16), а так-же числа фибоначчи
 
 # [calc.cpp](https://github.com/morozovxc/code-pascal/blob/main/calc.cpp "Код")
 > Чувак, серьёзно? Объяснять тебе калькулятор? -[[Код](https://github.com/morozovxc/code-pascal/blob/main/calc.cpp "Код")]
