@@ -21,8 +21,8 @@
 # calc.cpp
 > Чувак, серьёзно? Объяснять тебе калькулятор? -[[Код](https://github.com/morozovxc/code-pascal/blob/main/calc.cpp "Код")]
 
-# massive[1].cpp
-> Забивка рандомом одномерного массива и суммирование с выводом суммы -[[Код](https://github.com/morozovxc/code-pascal/blob/main/massive[1].cpp "Код")]
+# [massive[1].cpp](https://github.com/morozovxc/code-pascal/blob/main/massive[1].cpp "Код")
+> Забивка рандомом одномерного массива и суммирование с выводом суммы
 
 # [massive[2].cpp](https://github.com/morozovxc/code-pascal/blob/main/massive[2].cpp "Код")
 > Забивка рандомом одномерного массива и сортировка по возрастанию
