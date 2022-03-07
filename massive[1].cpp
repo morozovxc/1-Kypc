@@ -4,22 +4,25 @@
 
 using namespace std;
 
-int n, c;
+int n;
 long ch;
 
 int main()
 {
+    cout << "Введите кол-во чисел: ";
     cin >> n;
-    cin >> c;
     
     int massive[n];
-    
+
+    cout << "Числа: ";
+  
     for(int i=0; i < n; i++){
-        massive[i] = rand() % c-(c/2);
+        massive[i] = 16 - rand() % 30;
+        cout << massive[i] << " ";
         ch += massive[i];
     }
     
-    cout << ch << endl;
+    cout << endl << "Сумма: "<< ch << endl;
     
     return 0;
 }
