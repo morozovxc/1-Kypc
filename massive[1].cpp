@@ -17,7 +17,7 @@ int main()
     cout << "Числа: ";
   
     for(int i=0; i < n; i++){
-        massive[i] = 16 - rand() % 30;
+        massive[i] = rand() % 30 - 15;
         cout << massive[i] << " ";
         ch += massive[i];
     }
